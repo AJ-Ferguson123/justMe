@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-emphasis: none;
+  background-color: rgb(216, 155, 175);
+}
+
+.navi_style {
+  padding-bottom: .3em;
+  padding-right: .5em;
+}
+
+.navi_style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(172, 80, 80);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-radius: .3em .3em .4em .4em;
+
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.navi_style ul li {
+  float: right;
+}
+
+.navi_style ul li a {
+  padding: 14px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #cc2e5d, #ff5858);
+  border-radius: 8px 8px 0 8px;
+
+  transition: 0.8s ease-out;
+}
+
+.navi_style ul li a:hover {
+  background-color: lavenderblush;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+  border-radius: 8px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.header_about {
+  padding-top: 2em;
+}
+
+ #header_pro {
+  padding-top: 5em;
+  background-color: rgb(135, 206, 206);
+}
+
+footer {
+  bottom: auto;
+  background: fixed;
+  background-color: blue;
+  border-radius: 20%;
+  border: 3px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+
+.button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+  display: inline-block;
+  padding: 15px 25px;
+  background-image: linear-gradient(to right, #cc2e5d, #ff5858);
+  border-radius: 8px;
+  
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease-out;
+}
+
+.button:hover {
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
+}
