@@ -1,10 +1,18 @@
 body {
   padding: 0;
-  margin: 0;
-  text-emphasis: none;
-  background-color: rgb(216, 155, 175);
+  margin: 0;  
+  background-color: rgb(212, 184, 193);
 }
 
+p {
+  font-weight: 650;
+  padding: 0 1em 0 1em;
+  line-height: 1.2em;
+}
+
+ ul li {
+  list-style: none;
+}
 .navi_style {
   padding-bottom: .3em;
   padding-right: .5em;
@@ -14,15 +22,14 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: rgb(172, 80, 80);
+  overflow: hidden;  
   position: fixed;
   top: 0;
   width: 100%;
   border-radius: .3em .3em .4em .4em;
 
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .navi_style ul li {
@@ -52,17 +59,21 @@ body {
 
 .header_about {
   padding-top: 2em;
+  padding-left: 1em;
+  text-decoration: underline;
 }
 
- #header_pro {
-  padding-top: 5em;
-  background-color: rgb(135, 206, 206);
+ #header_pro {     
+  padding-top: .5em;
+  text-align: center; 
+  /* background-color: rgb(135, 206, 206); */
 }
 
 footer {
   bottom: auto;
   background: fixed;
-  background-color: blue;
+  background-color: black;
+  color: white;
   border-radius: 20%;
   border: 3px solid;
   padding: 10px;
@@ -91,4 +102,13 @@ footer {
 
 .button:hover {
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+#project_three_link {
+  text-align: left;
+}
+
+#fireworks_about {
+  text-align: center;
+  text-decoration: none;
 }
